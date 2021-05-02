@@ -20,7 +20,7 @@ A model is trained by passing batches of input through the network created to be
 
 We want our model to be accurate but accuracy is not a function we use to train the model. Let's say 99% of people have hair on their arms. If we trained the model to be accurate at determining if a person has hair on their arms, we will think it is accurate because the model can say yes everytime and it will be 99% accurate. This does not mean it is a good model. 
 
-This is where the idea of Loss comes in. Loss is measuring how far off was the model when predicting in each variable it used. The model knows exactly how to change the weights assigned to each variable so was 100% correct.
+This is where the idea of Loss comes in. Loss is measuring how far off the model was when predicting in each variable it used. The model knows exactly how to change the weights assigned to each variable so was 100% correct. This would simply overfit the model though. We want to use loss to adjust the weights appropriately but not too much. Now that your model knows how to learn, it begins to adjust the weights and is ready for the testing data. The testing data is where you can now see how accurate your model is at predicting. 
 
 ### Install the package [here](https://pytorch.org/get-started/locally/)
 
@@ -28,8 +28,9 @@ Get started with the package by choosing your local system requirements. It is i
 
 ## Check out the YouTube presentation [here](https://www.youtube.com/watch?v=nPDomZQ8jI4)
 
+This video follows the supported resource PyTorch Markdown Code. It is a quick guide on how to create a neural network that will be able to determine what handwritten number is on the image passed into the network.
 
 ### To follow along use the supported resources in the github
 - PyTorch Installation
 - PyTorch Database Extension
-- ExpoProject Markdown Code
+- PyTorch Markdown Code
