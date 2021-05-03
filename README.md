@@ -33,6 +33,5 @@ This video follows the supported resource PyTorch Markdown Code. It is a quick g
 I apologize for the blurryness, I am using a free recording software. It is about 16 minutes long because neural networks are a difficult conceptual topic and it takes time to fully generate a neural network.
 
 ### To follow along use the supported resources in the github
-- PyTorch Installation
-- PyTorch Database Extension
-- PyTorch Markdown Code
+- PyTorch_Markdown
+- The datasets are imported through the torchvision download, no other support files are needed
